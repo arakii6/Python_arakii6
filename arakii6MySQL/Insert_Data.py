@@ -8,7 +8,7 @@ mydb = mysql.connector.connect(
 
 # Inserting Data into Table
 cur = mydb.cursor()
-I = "INSERT INTO book(bookid,title,price) VALUES(%s,%s,%s)"
+I = "INSERT INTO book(bookid,title,price) VALUES(%s,%s,%s)"                     
 
 while True:
     Data_Entry = input("To enter data press E, to quit press Q: ")
