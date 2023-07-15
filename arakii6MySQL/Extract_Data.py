@@ -1,4 +1,3 @@
-from Config import mydb
 from Config import cur
 
 cur.execute('select * from book')
